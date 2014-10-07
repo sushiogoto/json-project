@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Generic Movie Searcher</title>
 </head>
 <body>
+  <form name="input" class="main">
+    <input type="text" name="movie" id="name">
+    <input type="text" name="years" id="year">
+    <input type="submit" value="Submit">
+  </form>
+  <div class="suggestions"><ul></ul></div>
+  </div>
+  <div class="details">
+      <div class="poster"></div>
+    <span id="title">Movie title: <span></span></span>
+    <span id="year">Year: <span></span></span>
+  </div>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
